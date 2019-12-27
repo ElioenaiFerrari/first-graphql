@@ -1,0 +1,23 @@
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  password: String!
+}
+
+type Spec {
+  id: ID!
+  user_id: Int!
+  tech: String!
+}
+
+type Query {
+  user(id: ID!): User
+  users: [User!]!
+  specs: [Spec!]!
+}
+
+type Mutation {
+  createUser(name: String!, email: String!, password: String!): User
+  createSpec(tech: String!, user_id: Int!): Spec
+}
