@@ -6,6 +6,7 @@
   "dependencies": {
     "graphql-yoga": "^1.18.3",
     "mysql2": "^2.1.0",
+    "pg": "^8.5.1",
     "sequelize": "^5.21.3"
   },
   "devDependencies": {

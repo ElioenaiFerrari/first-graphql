@@ -1,30 +1,15 @@
 {
   "development": {
-    "username": "root",
-    "password": "32819557",
+    "username": "postgres",
+    "password": "postgres",
     "database": "graphql",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "port": 5432,
+    "dialect": "postgres",
     "define": {
       "timestamps": true,
       "underscored": true
     },
     "operatorsAliases": 0
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
   }
 }
